@@ -1072,7 +1072,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -5811,7 +5811,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5918,7 +5918,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6547,6 +6547,9 @@ button.close {
     display: none !important;
   }
 }
+.page-content {
+  margin-bottom: 20px;
+}
 .site-header {
   border-top: 5px solid black;
 }
@@ -6565,4 +6568,15 @@ button.close {
   padding: 10px 0;
   background: #ccc;
   color: #222222;
+}
+#main-offerings {
+  margin: 10px 0;
+}
+@media (min-width: 768px) {
+  #main-offerings .border-right {
+    border-right: 1px solid #ccc;
+  }
+}
+#scheme th {
+  min-width: 100px;
 }

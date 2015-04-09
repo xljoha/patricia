@@ -4,7 +4,7 @@ email: patricia@samadhiyogayama.com
 description: > # this means to ignore newlines until "baseurl:"
  Samadhiyogayama är en yogastudio i Göteborg. Studion ägs och drivs av Patricia Himmelsstjärna.
  	Patricia har många års erfarenhet av yoga och meditation och hennes fokus ligger på mjuka 
- 	dynamiska sekvenser. Bla bla bla.
+ 	dynamiska sekvenser.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://samadhiyogayama.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
