@@ -1,28 +1,67 @@
+.text-wrapper {
+	max-width: 700px;
+}
 .page-content {
 	margin-bottom: 20px;
 }
 .site-header {
-	border-top: 5px solid black;
+	border-top: 10px solid lighten(@brand-primary, 20%);
 }
 .navbar-brand {
 	text-transform: uppercase;
+	color: @brand-secondary !important;
 }
+
 .navbar {
 	margin-bottom: 0;
+	text-transform: uppercase;
+		background: #fff;
+		.navbar-nav {
+			> .active > a {
+				background: @brand-secondary;
+				color: #fff;
+				transiton: all .5s;
+				&:hover {
+					transition: all .5s;
+					background: lighten(@brand-secondary, 20%);
+				}
+			}
+		} 
+
+	
 }
 
 .site-footer {
-	background: #222222;
+	background: @brand-secondary;
 	color: #fff;
 	padding:10px 0;
 	.sub-footer {
 		padding: 10px 0;
-		background: #ccc;
-		color: #222222;
+		background: #fff;
+		color: @gray-light;
+
 	}
 }
 
 // #index page 
+.carousel-caption {
+	display: none;
+	@media (min-width: @screen-sm-min) { 
+		display: block;
+	}
+	blockquote {
+		border: 0;
+		color: #fff;
+	} 
+	text-align: left;
+	top: 20px;
+	left: 20px;
+	font-style: italic;
+	footer {
+		color: #000 !important;
+	}
+}
+
 #main-offerings {
 	margin:10px 0;
 	.border-right {
@@ -37,6 +76,12 @@
 	th {
 		min-width: 100px;
 	}
+}
+
+
+// #om 
+#teachers {
+	margin-top: 20px;
 }
 
 
