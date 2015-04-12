@@ -6554,11 +6554,11 @@ button.close {
   margin-bottom: 20px;
 }
 .site-header {
-  border-top: 10px solid #efe1ed;
+  border-top: 10px solid #000;
 }
 .navbar-brand {
   text-transform: uppercase;
-  color: #acc5c8 !important;
+  color: #6c6c6c !important;
 }
 .navbar {
   margin-bottom: 0;
@@ -6566,16 +6566,16 @@ button.close {
   background: #fff;
 }
 .navbar .navbar-nav > .active > a {
-  background: #acc5c8;
+  background: #6c6c6c;
   color: #fff;
   transiton: all .5s;
 }
 .navbar .navbar-nav > .active > a:hover {
   transition: all .5s;
-  background: #e9f0f1;
+  background: #9f9f9f;
 }
 .site-footer {
-  background: #acc5c8;
+  background: #6c6c6c;
   color: #fff;
   padding: 10px 0;
 }
