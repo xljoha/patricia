@@ -6619,3 +6619,6 @@ button.close {
 h2 {
   margin-bottom: 20px;
 }
+.inline-img {
+  margin: 0 10px 10px 0;
+}
